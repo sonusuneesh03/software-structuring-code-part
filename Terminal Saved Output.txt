@@ -1,0 +1,58 @@
+Last login: Sun Mar 16 16:02:24 on ttys007
+sonusuneesh@MacBookAir software structring test 1  % git status
+interactive rebase in progress; onto fb37ae9
+Last command done (1 command done):
+   pick a22b61a Initial commit
+No commands remaining.
+You are currently rebasing branch 'main' on 'fb37ae9'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   code_api.py
+	new file:   copd_model_ai.pkl
+	new file:   copd_model_ai.py
+	new file:   copd_predictor.py
+	new file:   data_logger.py
+	new file:   main.py
+	new file:   prediction.csv
+	new file:   send_sensor_data.py
+	new file:   sensor_data.json
+	new file:   sensorsimulation.ipynb
+	new file:   sensorsimulaton.py
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both added:      copd_sensor_data.csv
+
+sonusuneesh@MacBookAir software structring test 1  % git add copd_sensor_data.csv
+sonusuneesh@MacBookAir software structring test 1  % git rebase --continue
+hint: Waiting for your editor to close the file... 
+# Last command done (1 command done):
+#    pick a22b61a Initial commit
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'fb37ae9'.
+#
+# Changes to be committed:
+#       new file:   .DS_Store
+#       new file:   code_api.py
+#       new file:   copd_model_ai.pkl
+#       new file:   copd_model_ai.py
+#       new file:   copd_predictor.py
+#       modified:   copd_sensor_data.csv
+#       new file:   data_logger.py
+#       new file:   main.py
+#       new file:   prediction.csv
+#       new file:   send_sensor_data.py
+#       new file:   sensor_data.json
+#       new file:   sensorsimulation.ipynb
+#       new file:   sensorsimulaton.py
+#
+~                                                                               
+~                                                                               
+~                                                                               
+
